@@ -1,21 +1,6 @@
 title: "Bug: "
 labels: ["bug", "NEED_TO_LABEL"]
 
-body:
-- type: dropdown
-  id: "category"
-  attributes:
-    label: Category
-    description: What functionality does this most relate to? 
-    multiple: false
-    options:
-      - AI-powered code suggestions
-      - Security scan
-      - Documentation
-    default: 0
-  validations:
-    required: true
-
 - type: checkboxes
   id: "checks"
   attributes:
@@ -25,7 +10,7 @@ body:
       required: true
     - label: "I have run `cw restart` and replicated the issue"
       required: true
-    - label: "I have searched [github.com/aws/codewhisperer-command-line-discussions/discussions](https://github.com/aws/codewhisperer-command-line-discussions/discussions?q=) and there are no duplicates of my issue"
+    - label: "I have searched [this discussions repo](https://github.com/aws/codewhisperer-command-line-discussions/discussions?q=) and there are no duplicates of my issue"
       required: true
     
 - type: textarea

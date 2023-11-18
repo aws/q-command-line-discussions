@@ -9,7 +9,7 @@ body:
     options:
     - label: "I have run `cw` and did not find a setting to solve my issue"
       required: true
-    - label: "I have searched [github.com/aws/codewhisperer-command-line-discussions/discussions](https://github.com/aws/codewhisperer-command-line-discussions/discussions?q=) and there are no duplicates of my feature request"
+    - label: "I have searched [this discussions repo](https://github.com/aws/codewhisperer-command-line-discussions/discussions?q=) and there are no duplicates of my feature request"
       required: true
 
 - type: textarea
