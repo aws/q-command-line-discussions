@@ -1,7 +1,7 @@
 title: "Bug: "
 labels: ["bug", "NEED_TO_LABEL"]
 
-body
+body:
 - type: checkboxes
   id: "checks"
   attributes:
