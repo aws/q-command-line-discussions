@@ -7,9 +7,9 @@ body:
   attributes:
     label: "Checks"
     options:
-    - label: "I have run `cw` and did not find a setting to solve my issue"
+    - label: "I could not find an existing setting that solved my issue"
       required: true
-    - label: "I have searched [this discussions repo](https://github.com/aws/codewhisperer-command-line-discussions/discussions?q=) and there are no duplicates of my feature request"
+    - label: "I have searched [the discussions in this repo](https://github.com/aws/codewhisperer-command-line-discussions/discussions?q=) and there are no duplicates of my feature request"
       required: true
 
 - type: textarea

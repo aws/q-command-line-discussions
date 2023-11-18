@@ -1,6 +1,7 @@
 title: "Bug: "
 labels: ["bug", "NEED_TO_LABEL"]
 
+body
 - type: checkboxes
   id: "checks"
   attributes:
@@ -10,7 +11,7 @@ labels: ["bug", "NEED_TO_LABEL"]
       required: true
     - label: "I have run `cw restart` and replicated the issue"
       required: true
-    - label: "I have searched [this discussions repo](https://github.com/aws/codewhisperer-command-line-discussions/discussions?q=) and there are no duplicates of my issue"
+    - label: "I have searched [the discussions in this repo](https://github.com/aws/codewhisperer-command-line-discussions/discussions?q=) and there are no duplicates of my issue"
       required: true
     
 - type: textarea
