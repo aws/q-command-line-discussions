@@ -1,18 +1,10 @@
-## My Project
+## CodeWhisperer for command line discussions
 
-TODO: Fill this README out!
+👋 Welcome to CodeWhisperer for command line community discussion repo
 
-Be sure to:
+Create feature requests, bug reports, and more in [Discussions](https://github.com/aws/codewhisperer-command-line-discussions)
 
-* Change the title in this README
-* Edit your repository description on GitHub
-* Write in your license below and create a LICENSE file
 
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the LICENSE NAME HERE License.
+### Resources
+See [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for more information.
 

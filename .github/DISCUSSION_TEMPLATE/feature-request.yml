@@ -1,0 +1,23 @@
+title: "Feat: "
+labels: ["Feature request", "NEED_TO_LABEL"]
+
+body:
+- type: checkboxes
+  id: "checks"
+  attributes:
+    label: "Checks"
+    options:
+    - label: "I have run `cw` and did not find a setting to solve my issue"
+      required: true
+    - label: "I have searched [github.com/aws/codewhisperer-command-line-discussions/discussions](https://github.com/aws/codewhisperer-command-line-discussions/discussions?q=) and there are no duplicates of my feature request"
+      required: true
+
+- type: textarea
+  attributes:
+    label: Feature Details
+    description: What should this feature do? What problem does it solve?
+    # Because we are using hashtags at the start of a line, we must put the value in quotes. We cannot use YAML's multiline syntax with the pipe symbol
+    value: "### Description:\n> Please include a detailed description of the feature (and an image or screen recording, if applicable)"
+  validations:
+    required: true
+

@@ -1,0 +1,58 @@
+title: "Bug: "
+labels: ["bug", "NEED_TO_LABEL"]
+
+body:
+- type: dropdown
+  id: "category"
+  attributes:
+    label: Category
+    description: What functionality does this most relate to? 
+    multiple: false
+    options:
+      - AI-powered code suggestions
+      - Security scan
+      - Documentation
+    default: 0
+  validations:
+    required: true
+
+- type: checkboxes
+  id: "checks"
+  attributes:
+    label: "Checks"
+    options:
+    - label: "I have run `cw doctor` in the affect command line session"
+      required: true
+    - label: "I have run `cw restart` and replicated the issue"
+      required: true
+    - label: "I have searched [github.com/aws/codewhisperer-command-line-discussions/discussions](https://github.com/aws/codewhisperer-command-line-discussions/discussions?q=) and there are no duplicates of my issue"
+      required: true
+    
+- type: textarea
+  id: "expected"
+  attributes:
+    label: "Expected behaviour"
+    description: "What did you expect to happen?"
+  validations:
+    required: true
+    
+- type: textarea
+  id: "actual"
+  attributes:
+    label: "Actual behaviour"
+    description: "What actually happened? Please provide a screenshot or video if possible."
+  validations:
+    required: true
+
+- type: textarea
+  id: "reproduce"
+  attributes:
+    label: "Steps to reproduce"
+    description: "Are you able to reproduce this issue? If so, how?"
+
+- type: textarea
+  id: "environment"
+  attributes:
+    label: "Environment"
+    description: "If possible, run `cw diagnostic` and paste the information below"
+    render: yaml
