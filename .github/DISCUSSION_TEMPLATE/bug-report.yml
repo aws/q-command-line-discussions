@@ -7,11 +7,11 @@ body:
   attributes:
     label: "Checks"
     options:
-    - label: "I have run `cw doctor` in the affect command line session"
+    - label: "I ran `cw doctor` in the affected command line session and it didn't resolve my issue"
       required: true
-    - label: "I have run `cw restart` and replicated the issue"
+    - label: "I ran `cw restart` and it didn't resolve my issue"
       required: true
-    - label: "I have searched [the discussions in this repo](https://github.com/aws/codewhisperer-command-line-discussions/discussions?q=) and there are no duplicates of my issue"
+    - label: "I searched [the discussions in this repo](https://github.com/aws/codewhisperer-command-line-discussions/discussions?q=) and there are no duplicates of my issue"
       required: true
     
 - type: textarea
