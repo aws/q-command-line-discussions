@@ -40,4 +40,5 @@ Create a new Discussion [here](https://github.com/aws/codewhisperer-command-line
 * [User guide](https://docs.aws.amazon.com/codewhisperer/latest/userguide/command-line.html)
 * [Completion spec contribution](https://fig.io/docs)
 
-
+## Other
+Want AI coding suggestions in your IDE? Checkout https://aws.amazon.com/codewhisperer
