@@ -4,12 +4,12 @@
 </div>
 
 
-[CodeWhisperer for command line](https://fig.io?ref=github_fig) makes the command line easier for beginners and more productive for advanced engineers. 
+[CodeWhisperer for command line](https://aws.amazon.com/codewhisperer/resources/) makes the command line easier for beginners and more productive for advanced engineers. 
 
-This repo hosts all [discussions](https://github.com/aws/codewhisperer-command-line-discussions/discussions) for bug reports, feature requests, announcements, and Q&A.
+This repo hosts all **[discussions](https://github.com/aws/codewhisperer-command-line-discussions/discussions)** for bug reports, feature requests, announcements, and Q&A.
 
 <div align="center">
-    <img width="450" src="assets/cli-completions-git.png" />
+    <img width="450" src="assets/cli-completions.gif" />
 </div>
 
 
