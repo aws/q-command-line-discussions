@@ -1,5 +1,5 @@
-title: "Bug: "
-labels: ["Bug", "NEED_TO_LABEL"]
+title: "Support request: "
+labels: ["User support ticket"]
 
 body:
 - type: checkboxes
