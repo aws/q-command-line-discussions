@@ -1,12 +1,11 @@
 <div align="center">
-    <img width="150" src="assets/icon.png" />
-    <h2 style="margin-top: 0px">CodeWhisperer for command line - Discussions repo</h1>
+    <h2 style="margin-top: 0px">Amazon Q for command line - Discussions repo</h1>
 </div>
 
 
-[CodeWhisperer for command line](https://aws.amazon.com/codewhisperer/resources/) makes the command line easier for beginners and more productive for advanced engineers. 
+[Amazon Q for command line](https://aws.amazon.com/codewhisperer/resources/) makes the command line easier for beginners and more productive for advanced engineers. 
 
-This repo hosts all **[discussions](https://github.com/aws/codewhisperer-command-line-discussions/discussions)** for bug reports, feature requests, announcements, and Q&A.
+This repo hosts all **[discussions](https://github.com/aws/q-command-line-discussions/discussions)** for bug reports, feature requests, announcements, and Q&A.
 
 <div align="center">
     <img width="450" src="assets/cli-completions.gif" />
@@ -15,7 +14,7 @@ This repo hosts all **[discussions](https://github.com/aws/codewhisperer-command
 
 ## ⚡️ Installation
 
-Download for macOS [here](https://desktop-release.codewhisperer.us-east-1.amazonaws.com/latest/CodeWhisperer.dmg)
+Download for macOS [here](https://desktop-release.codewhisperer.us-east-1.amazonaws.com/latest/Q.dmg)
 
 
 ## Environment support
@@ -33,12 +32,9 @@ Download for macOS [here](https://desktop-release.codewhisperer.us-east-1.amazon
 
 
 ## Feature request or questions?
-Create a new Discussion [here](https://github.com/aws/codewhisperer-command-line-discussions/discussions/new/choose) 
+Create a new Discussion [here](https://github.com/aws/q-command-line-discussions/discussions/new/choose) 
 
 
 ## Docs
 * [User guide](https://docs.aws.amazon.com/codewhisperer/latest/userguide/command-line.html)
 * [Completion spec contribution](https://fig.io/docs)
-
-## Other
-Want AI coding suggestions in your IDE? Checkout https://aws.amazon.com/codewhisperer
