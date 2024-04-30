@@ -3,7 +3,7 @@
 </div>
 
 
-[Amazon Q for command line](https://aws.amazon.com/codewhisperer/resources/) makes the command line easier for beginners and more productive for advanced engineers. 
+[Amazon Q for command line](https://aws.amazon.com/q/developer/) makes the command line easier for beginners and more productive for advanced engineers. 
 
 This repo hosts all **[discussions](https://github.com/aws/q-command-line-discussions/discussions)** for bug reports, feature requests, announcements, and Q&A.
 
@@ -26,9 +26,9 @@ Download for macOS [here](https://desktop-release.codewhisperer.us-east-1.amazon
 
 
 ## Bugs?
-* Run `cw doctor` to self-heal common issues
-* Run `cw restart` to see if restarting the app helps
-* Run `cw issue` to create a new Discussion in this repo with pre-populated diagnostic information
+* Run `q doctor` to self-heal common issues
+* Run `q restart` to see if restarting the app helps
+* Run `q issue` to create a new Discussion in this repo with pre-populated diagnostic information
 
 
 ## Feature request or questions?
@@ -36,5 +36,5 @@ Create a new Discussion [here](https://github.com/aws/q-command-line-discussions
 
 
 ## Docs
-* [User guide](https://docs.aws.amazon.com/codewhisperer/latest/userguide/command-line.html)
+* [User guide](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)
 * [Completion spec contribution](https://fig.io/docs)
