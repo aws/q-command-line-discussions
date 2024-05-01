@@ -7,11 +7,11 @@ body:
   attributes:
     label: "Checks"
     options:
-    - label: "I ran `cw doctor` in the affected command line session and it didn't resolve my issue"
+    - label: "I ran `q doctor` in the affected command line session and it didn't resolve my issue"
       required: true
-    - label: "I ran `cw restart` and it didn't resolve my issue"
+    - label: "I ran `q restart` and it didn't resolve my issue"
       required: true
-    - label: "I searched [the discussions in this repo](https://github.com/aws/codewhisperer-command-line-discussions/discussions?q=) and there are no duplicates of my issue"
+    - label: "I searched [the discussions in this repo](https://github.com/aws/q-command-line-discussions/discussions?q=) and there are no duplicates of my issue"
       required: true
     
 - type: textarea
@@ -40,5 +40,5 @@ body:
   id: "environment"
   attributes:
     label: "Environment"
-    description: "If possible, run `cw diagnostic` and paste the information below"
+    description: "If possible, run `q diagnostic` and paste the information below"
     render: yaml
