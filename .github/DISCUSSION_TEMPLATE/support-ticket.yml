@@ -41,4 +41,4 @@ body:
   attributes:
     label: "Environment"
     description: "If possible, run `q diagnostic` and paste the information below"
-    render: yaml
+    render: toml
