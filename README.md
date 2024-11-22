@@ -1,7 +1,8 @@
+# This repo is no longer active, please create all issues going forward in [aws/amazon-q-developer-cli](https://github.com/aws/amazon-q-developer-cli)
+
 <div align="center">
     <h2 style="margin-top: 0px">Amazon Q for command line - Discussions repo</h1>
 </div>
-
 
 [Amazon Q for command line](https://aws.amazon.com/q/developer/) makes the command line easier for beginners and more productive for advanced engineers. 
 
